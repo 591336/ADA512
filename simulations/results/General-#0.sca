@@ -1,0 +1,26 @@
+version 3
+run General-0-20241020-11:57:48-63096
+attr configname General
+attr datetime 20241020-11:57:48
+attr datetimef 20241020-115748
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network FerrySimulation
+attr processid 63096
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network FerrySimulation
+config cpu-time-limit 360s
+
+par FerrySimulation.pier typename "\"oblig1.Pier\""
+par FerrySimulation.vehicle typename "\"oblig1.Vehicle\""
+par FerrySimulation.ferry typename "\"oblig1.Ferry\""
+par FerrySimulation typename "\"oblig1.simulations.FerrySimulation\""
+

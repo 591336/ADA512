@@ -1,0 +1,33 @@
+file 5323661 1729418281                                         
+version 3
+run General-0-20241020-11:57:48-63096
+attr configname General
+attr datetime 20241020-11:57:48
+attr datetimef 20241020-115748
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network FerrySimulation
+attr processid 63096
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network FerrySimulation
+config cpu-time-limit 360s
+
+vector 0 FerrySimulation.pier "Pier queue size" ETV
+attr interpolationmode none
+vector 1 FerrySimulation.pier "Empty spots on ferry" ETV
+attr interpolationmode none
+0	664 1041464 2 65536 47.752470273947 1883950.243571685033 32768 0 98 1064212 46764562
+0	1042128 1081546 65538 131072 1884005.24571664583 3790065.119357716767 32768 0 92 1036786 44409936
+0	2123674 1098797 131074 196608 3790172.69330840351 5674504.930671537039 32768 0 84 1046179 45161827
+0	3222471 1098912 196610 262144 5674528.538051990867 7570107.226329098023 32768 0 88 1051245 45618069
+0	4321383 951120 262146 318878 7570173.232619979756 9222543.379866483141 28367 0 87 892741 38096371
+1	5272503 51156 108 318776 3600 9219600 2561 0 34 22443 319613
+
